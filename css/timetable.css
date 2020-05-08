@@ -243,10 +243,10 @@ td{
 
 span{
   text-align: center;
-  color: #FF0000;
-  visibility:hidden;
+  color: rgba(0,0,0,0);
+  transition-property: text;
 }
 
 span:active{
-  visibility: visible;
+  color: #FF0000;
 }
